@@ -13,8 +13,8 @@ public class FriendApp {
         System.out.println("친구를 3명 등록해 주세요");
 
         
-            for(int i=0; i<friendArray.length; i++) {
-        	
+        for(int i=0; i<friendArray.length; i++) {
+    	
         	System.out.print("이름: ");
         	String scname = sc.nextLine();
         	
@@ -27,8 +27,10 @@ public class FriendApp {
         	String scschool = sc.nextLine();
         	System.out.println("----------------------------");
             
-        	for(int j=i; j<friendArray.length; j++) {
-        	
+
+    	
+    	for(int j=i; j<friendArray.length; j++) {
+    	
         	// Friend 인스턴스 생성하여 데이터 넣기-----------------------------
         	//힙구간에 뉴를 사용하여 변수명과 공간을 만들고
         	//그 주소를 따라가면 저런 데이터가 있다.
@@ -54,11 +56,11 @@ public class FriendApp {
         	friendArray[i] = first; 
         	friendArray[i] = second;
         	friendArray[i] = third;
-        	
-        		}
-            }
-              
-        
+    	
+    		}
+        }
+          
+            
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
             friendArray[i].showInfo();
@@ -93,6 +95,7 @@ public class FriendApp {
 
         sc.close();
          */
+    
+            
     }
-
 }
