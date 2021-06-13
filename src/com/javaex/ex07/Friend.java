@@ -5,7 +5,7 @@ public class Friend {
     private String name;
     private String hp;
     private String school;
-
+  
       
     // getter/setter 작성
      
