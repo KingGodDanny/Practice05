@@ -12,7 +12,7 @@ public class FriendApp {
         
         System.out.println("친구를 3명 등록해 주세요");
 
-        
+           
         for(int i=0; i<friendArray.length; i++) {
     	
         	System.out.print("이름: ");

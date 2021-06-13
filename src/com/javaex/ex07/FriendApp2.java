@@ -21,7 +21,7 @@ public class FriendApp2 {
 	        	System.out.print("번호: ");
 	        	String scnumber = sc.nextLine();
 	        	
-	        	
+	        	   
 	        	System.out.print("학교: ");
 	        	String scschool = sc.nextLine();
 	        	System.out.println("----------------------------");
